@@ -1,0 +1,31 @@
+h1, h2, h3 {
+    color: #333;
+}
+
+
+
+
+.profile_pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_pic img {
+    width: 300px; 
+    height: auto;
+    object-fit: cover;
+}
+
+
+.posts .image img {
+    border-radius: 30px; 
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+

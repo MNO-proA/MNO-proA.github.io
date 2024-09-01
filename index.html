@@ -4,20 +4,14 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang="en">
 	<head>
-		<title>MNOP</title>
+		<title>Michael Nana Ofosu</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<style>
-			img {
-				width: 60%;
-				height: 40%;
-				/* object-fit: contain; */
-				}
-		</style>
+		<link rel="stylesheet" href="style.css">
 	</head>
 	<body class="is-preload">
 
@@ -26,9 +20,11 @@
 
 				<!-- Intro -->
 					<div id="intro">
-						<h1>MICHAEL NANA OFOSU<br />
-						PORTFOLIO - MNOP</h1>
-						<p>Data Scientist well versed in Python, SQL, Power BI 
+						<div class="profile_pic">
+							<img src="images/profile_pic.jpg" alt="Profile Picture">
+						</div>
+						<h1>MICHAEL NANA OFOSU</h1>
+						<p>Data Scientist  
 							<!--<a href="https://www.linkedin.com/in/michael-nana-ofosu-559682251/?trk=opento_sprofile_details" 
 							target="_blank">@LinkedIn</a>-->.</p>
 						<ul class="actions">
@@ -38,7 +34,7 @@
 
 				<!-- Header -->
 					<header id="header">
-						<a href="index.html" class="logo">MNOP</a>
+						<a href="index.html" class="logo">MNO</a>
 					</header>
 
 				<!-- Nav -->
@@ -79,12 +75,12 @@
 						<!-- Posts -->
 							<section class="posts">
 								<article>
-									<header>
+									<header >
 										<h2>YouTube Channel Analysis</h2>
 									</header>
 									<a href="https://www.linkedin.com/pulse/exciting-data-analytics-study-youtube-channel-analysis-ofosu-ywnlf/" 
 									target="_blank"
-									class="image fit"><img src="images/PBI Visualization for Top-5000 Youtube Channel Study.png" 
+									class="image fit"><img src="images/youtube_channel_study.png" 
 										alt="Dashboard for project" /></a>
 									<p>The objective of this Data Analytics study is to examine the relationship between channel grade, 
 										subscriber count, average views, and average uploads on YouTube.
@@ -93,31 +89,30 @@
 									<ul class="actions special">
 										<li>
 											<a href="https://www.linkedin.com/pulse/exciting-data-analytics-study-youtube-channel-analysis-ofosu-ywnlf/" 
-											target="_blank" class="button">VIEW PROJECT</a>
+											target="_blank" class="button">View Details</a>
 										</li>
 										<li>
 											<a href="https://github.com/MNO-proA/Data-Analytics-Top-5000-Youtube-Channnels/blob/main/Project 1/SQL_CASE_STUDY.sql" 
-											target="_blank" class="button">VIEW CODE</a>
+											target="_blank" class="button">View Code</a>
 										</li>
 									</ul>
 								</article>
 								<article>
-									<header>
-										
-										<h2>Interactive HR Dashboard
-										</h2>
+									<header >
+										<h2> Retail Strategy and Analytics</h2>
+										<a href="https://quantium.com/" 
+									target="_blank"
+									class="image fit"><img src="images/quantium.png" 
+										alt="Dashboard for project" /></a>
 									</header>
-									<a href="#" class="image fit"><img src="images/Home.png" alt="HR dashboard" /></a>
-									<p>
-										This Power BI Interactive HR dashboard leverages the Power Query environment for data transformation 
-										before being loaded into Power BI for analysis and visualization. The initial data, which was in a rough and unclean CSV format, 
-										was refined using Power Query to make it suitable for analysis.  The goal is to create an 
-										interactive dashboard that can be navigated with buttons like a web page, simulating an app interface.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/MNO-proA/BI-HR-Dashboard/blob/main/README.md" target="_blank" class="button">View Project</a></li>
-										<li><a href="https://github.com/MNO-proA/BI-HR-Dashboard/raw/main/HR%20dashboard.pbix" target="_blank"  class="button">Download</a></li>
+										<p>I recently participated in Quantium's job simulation on the Forage platform, and it was incredibly useful to understand what it might be like to participate on a data science team at Quantium.I worked on a project to conduct analyses on a client's transaction dataset and identify customer purchasing behaviours to generate insights and provide commercial recommendations. I practised using Python (Pandas, NumPy, Matplotlib, Seaborn, SciPy) and built my Data Visualisation skills in a real-world context.</p>
+										<p></p>
+										<ul class="actions special">
+										<li><a href="Quantium_detail.html" target="_blank" class="button">View Details</a></li>
+										
 									</ul>
 								</article>
+								
 								<!-- <article>
 									<header>
 										<span class="date">April 22, 2017</span>
@@ -190,6 +185,9 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script type="module" src="assets/js/pdf.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+  			<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.worker.min.js"></script>
+			
 	</body>
 </html>
