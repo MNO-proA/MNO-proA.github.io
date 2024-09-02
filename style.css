@@ -29,3 +29,7 @@ h1, h2, h3 {
     object-fit: cover;
 }
 
+p i {
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
